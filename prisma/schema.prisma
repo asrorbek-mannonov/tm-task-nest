@@ -10,6 +10,7 @@ datasource db {
 model users {
   id         Int       @id @default(autoincrement())
   username   String    @unique
+  fullname   String   
   password   String
   status     Boolean   @default(true)
   created_at DateTime? @default(now())
