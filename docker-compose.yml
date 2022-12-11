@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: eduman
+      POSTGRES_DB: store_db
   test-db:
     image: postgres:latest-alpine
     ports:
@@ -15,4 +15,4 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: eduman
+      POSTGRES_DB: store_db
